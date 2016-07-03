@@ -8,7 +8,7 @@ div{
 html,body{
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	overflow: hi dden;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -23,7 +23,7 @@ html,body{
 	padding: 0;
 }
 #wrap li{
-	position: absolute;
+	/* position: absolute; */
 	height: 100%;
 	width: 100%;
 }
@@ -110,4 +110,60 @@ html,body{
 	margin-left: 20px;
 	font-size: 18px;
 	color: #fff;
+}
+.next{
+	width: 50px;
+	height: 21px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 4%;
+	background: url(../img/next1.png) no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+#wrap_two{
+	background: url(../img/2.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	position: absolute;
+}
+#img3{
+	width: 180px;
+	height: 174px;
+	position: absolute;
+	right: 4%;
+	top: 2%;
+	background: url(../img/pic2.png) no-repeat;/*356 343*/
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#img4{
+	width: 200px;
+	height: 353px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -177px;
+	margin-left: -100px;
+	background: url(../img/pic3.png) no-repeat; /*468 826*/
+	-webkit-background-size: cover;
+	background-size: cover; 
+}
+#img5{
+	width: 130px;
+	height: 152px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -65px;
+	margin-top: -76px;
+	background: url(../img/text.png) no-repeat;/*268 313*/
+	-webkit-background-size: cover;
+	background-size: cover; 
+}
+#wrap_four{
+	background: url(../img/4.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover; 
 }
