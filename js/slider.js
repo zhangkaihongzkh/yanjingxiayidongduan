@@ -31,10 +31,7 @@ Slider.prototype.renderDOM = function(){
 		var img  = item.getElementsByTagName('li')[0];
 		item.style.height = window.innerHeight + 'px';
 		item.style.webkitTransform = 'translate3d(0,'+i*this.scaleH+'px, 0)';
-	}
-	var lis = wrap.getElementsByTagName('li');
-	for( i = 0; i < lis.length; i++){
-		lis[i].style.width = window.innerWidth +'px';
+		item.style.width = window.innerWidth + 'px';
 	}
 	wrap.style.width = window.innerWidth +'px';
 	wrap.style.height = window.innerHeight + 'px';
