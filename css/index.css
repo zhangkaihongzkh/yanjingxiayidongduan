@@ -1,36 +1,37 @@
-@charset "utf-8";
 div{
 	margin: 0 auto;
-	-moz-box-sizing:border-box; /* Firefox */
-	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	font-family: 微软雅黑;
+	font-family: '微软雅黑';
 }
 html,body{
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	position: relative;
 }
+
 #wrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
 }
 #wrap li{
-	position: absolute;
+	position: absolute; 
 	height: 100%;
 	width: 100%;
 }
+
 #wrap_one{
 	background: url(../img/1.jpg) no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover; 
+	-webkit-background-size:cover;
+	background-size: cover;
 }
 #logo{
 	width: 121px;
@@ -38,18 +39,18 @@ html,body{
 	background: url(../img/logo.png) no-repeat;
 	position: relative;
 	top: 30px;
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size:cover;
+	background-size:cover;
 }
 #text1{
 	margin-left: 0;
 	margin-right: 40%;
-	margin-top: 60px;
-	height: 55px;
-	background: #099082;
+	margin-top: 40px;
+	background-color: #099082;
 	opacity: 0.8;
+	height: 55px;
 	filter: alpha(opacity=80);
-	border-radius: 0px 5px 5px 0px; 
+	border-radius: 0px 5px 5px 0px;
 }
 #text1 p{
 	float: right;
@@ -57,39 +58,39 @@ html,body{
 	margin-right: 20px;
 	font-size: 35px;
 	line-height: 55px;
-	color: #fff;	
 	font-weight: lighter;
+	color: #fff;
 }
-
 #text2{
 	margin-left: 40%;
 	margin-right: 0;
 	margin-top: 30px;
+	background-color: #E95812;
 	height: 55px;
-	background: #E95812;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
-	border-radius: 5px 0px 0px 5px; 	
+	border-radius: 5px 0px 0px 5px;
 }
 #text2 p{
 	float: left;
 	margin-top: 0;
 	margin-left: 20px;
 	font-size: 35px;
-	color: #fff;	
+	line-height: 55px;
 	font-weight: lighter;
+	color: #fff;
 }
 #download{
 	width: 179px;
 	height: 55px;
 	padding-left: 40px;
-	position:absolute;
+	position: absolute;
 	display: block;
 	text-decoration: none;
 	left: 50%;
 	bottom: 13%;
 	margin-left: -109px;
-	background: #219B8E;
+	background-color: #219B8E;
 	border-radius: 5px;
 }
 #download i{
@@ -115,11 +116,11 @@ html,body{
 	height: 21px;
 	position: absolute;
 	left: 50%;
-	bottom: 4%;
 	margin-left: -25px;
-	background: url(../img/next1.png) no-repeat; /*167 69*/
-	-webkit-background-size: cover;
-	background-size: cover;
+	bottom: 4%;
+	background: url(../img/next1.png) no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
 }
 #wrap_two{
 	background: url(../img/2.jpg) no-repeat;
@@ -141,6 +142,7 @@ html,body{
 	background: url(../img/3.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover; 
+	position: absolute;
 }
 #img4{
 	width: 200px;
@@ -169,7 +171,8 @@ html,body{
 #wrap_four{
 	background: url(../img/4.jpg) no-repeat;
 	-webkit-background-size: cover;
-	background-size: cover; 
+	background-size: cover;
+		position: absolute; 
 }
 #text6{
 	width: 100%;
@@ -198,7 +201,7 @@ html,body{
 	bottom: 15%;
 	background: #DF6945;
 	-webkit-animation: shake 4s  both infinite;
-		animation: shake 4s  both infinite;
+	animation: shake 4s  both infinite;
 
 }
 #download_bottom i{
@@ -211,6 +214,7 @@ html,body{
 	background: url(../img/android.png) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+
 }
 #download_bottom span{
 	line-height: 48px;
@@ -233,7 +237,6 @@ html,body{
 #tip{
 	width: 100%;
 }
-
 @-webkit-keyframes shake { /* 恐龙蛋震动 */
   0% {
     -webkit-transform: scale3d(1, 1, 1);

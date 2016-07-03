@@ -94,13 +94,6 @@ Slider.prototype.bindDOM = function() {
 		//清除偏移量
 		self.offsetY = 0;
 
-		//事件对象
-		var target = evt.target;
-		while(target.nodeName != 'LI' && target.nodeName != 'BODY'){
-			target = target.parentNode;
-		}
-		self.target = target;
-
 	};
 
 	//手指移动的处理事件
