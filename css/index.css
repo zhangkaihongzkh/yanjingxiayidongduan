@@ -122,6 +122,17 @@ html,body{
 	-webkit-background-size:cover;
 	background-size:cover;
 }
+.next2{
+	width: 50px;
+	height: 21px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 4%;
+	background: url(../img/next2.png) no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
 #wrap_two{
 	background: url(../img/2.jpg) no-repeat;
 	-webkit-background-size: cover;
